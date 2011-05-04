@@ -22,10 +22,12 @@ setInterval	KEYWORD2
 getRunState	KEYWORD2
 setRunState	KEYWORD2
 setCountDown	KEYWORD2
+setOn KEYWORD2
+setOff  KEYWORD2
 setPattern	KEYWORD2
 pause	KEYWORD2
 resume	KEYWORD2
-processLED	KEYWORD2
+run	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
