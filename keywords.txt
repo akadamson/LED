@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For LEDs
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LED	KEYWORD1
+BlinkLED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getState	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
+toggle	KEYWORD2
+getInterval	KEYWORD2
+setInterval	KEYWORD2
+getRunState	KEYWORD2
+setRunState	KEYWORD2
+setCountDown	KEYWORD2
+setPattern	KEYWORD2
+pause	KEYWORD2
+resume	KEYWORD2
+processLED	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
