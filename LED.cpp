@@ -140,17 +140,19 @@ void BlinkLED::setCountDown(byte _times, RunState _state) {
 }
 
 void BlinkLED::resume(void) {
-   this->runState = saveState;
-   switch(this->runState) {
-    case REPEATCTDN:
-      this->pauseNum = 0;
-      this->blinkNum = 0;
-      break;
-    case COUNTDN:
-      this->blinkNum = this->blinkCount;
-      break;
-    default:
-      break;
+  if (this->runState != this->saveState) {
+    this->runState = saveState;
+    switch(this->runState) {
+      case REPEATCTDN:
+        this->pauseNum = 0;
+        this->blinkNum = 0;
+        break;
+      case COUNTDN:
+        this->blinkNum = this->blinkCount;
+        break;
+      default:
+        break;
+    }
   }
 };
 
