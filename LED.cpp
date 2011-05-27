@@ -23,6 +23,7 @@ LED::LED(uint8_t ledPin, LedStates _state) :
   pin(ledPin),
   state(_state) {
 	pinMode(this->pin, OUTPUT);
+	digitalWrite(pin, LOW);
 }
 
 void LED::on(void) {

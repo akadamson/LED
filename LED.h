@@ -36,7 +36,7 @@ class LED {
       ON = 1
     };
 
-    LED(uint8_t ledPin, LedStates status = OFF);
+    LED(uint8_t ledPin, LedStates _state = OFF);
   	inline bool getState(void) { return state; };
     void on(void);
   	void off(void);
